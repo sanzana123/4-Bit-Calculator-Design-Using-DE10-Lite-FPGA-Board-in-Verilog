@@ -1,0 +1,8 @@
+module mux
+(
+input A, B, //declare data inputs
+input S, //declare select input
+output Z //declare output
+);
+assign Z = S==0 ? A : B; //select input
+endmodule
