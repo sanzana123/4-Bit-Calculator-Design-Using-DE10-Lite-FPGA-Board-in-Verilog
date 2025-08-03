@@ -18,7 +18,7 @@
 - Intel Quartus Prime software
 - DE10-Lite FPGA development board
 
-# Steps
+### Steps
 - Open Intel Quartus Prime and create a new project targeting the DE10-Lite board.
 - Add your Verilog source files including termProject.v and submodules.
 - Assign the correct pin mappings for the DE10-Lite board (keypad rows/columns, HEX displays, LEDs).
